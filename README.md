@@ -83,7 +83,9 @@ be quite lacking in this regard (it didn't even indicate that the collector
 ships with a `help` command where you could find more information), so I'm going
 to leave another breadcrumb here in the form of that same help output.
 
-```shell
+[5]: https://help.sumologic.com/Manage/Collection/02Start-or-Stop-a-Collector-using-Scripts
+
+```
 $ /opt/SumoCollector/collector help
 Unexpected command: help
 
@@ -108,6 +110,6 @@ There it is: `/opt/SumoCollector/collector console` is what we need.
 
 To run this container locally, use the following command:
 
-```shell
+```
 docker run --rm -v "$PWD/user.properties:/opt/SumoCollector/config/user.properties" -v "$PWD/streaming-metrics-source.json:/etc/sumologic/sources/streaming-metrics-source.json" -it calebhailey/sumologic-collector:19.253-14 /bin/bash
 ```
