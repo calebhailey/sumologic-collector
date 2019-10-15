@@ -35,8 +35,8 @@ of):
 
    ```
    name=sensu-sumologic-collector
-   accessid=sur9PeoJudHkxA
-   accesskey=awSUyFgJYCbZx1TICJcP9m8i1ft3dxvsNENXNnCV49RPfINwgwbsVilWdR4cje8S
+   accessid=xxxxxxxxxxxxxx
+   accesskey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
    syncSources=/etc/sumologic/sources/
    ```
 
